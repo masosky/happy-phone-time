@@ -6,6 +6,7 @@ import BackgroundTask from "./components/BackgroundTask";
 import ExpoSqlLiteManager from "./components/ExpoSqlLiteManager";
 import RequestPermissionsAndroid from "./components/RequestPermissionsAndroid";
 import MyChart from "./components/MyChart";
+import NativeCustomComponent from "./components/NativeCustomComponent";
 
 export default function App() {
     useEffect(() => {
@@ -20,6 +21,7 @@ export default function App() {
             <StatusBar style="auto"/>
             <View>
                 <AppStatus/>
+                <NativeCustomComponent/>
                 <ExpoSqlLiteManager/>
                 <RequestPermissionsAndroid/>
                 <MyChart/>
