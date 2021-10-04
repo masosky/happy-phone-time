@@ -4851,6 +4851,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-native-awesome-module@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-awesome-module/-/react-native-awesome-module-0.1.0.tgz#947c8a65eb9bb5b11abcf6717cdda9255c0cc432"
+  integrity sha512-cChCRtJ/LU4rnsYE1MhddqF34UZj1UErhPXf7hsCKhmBuq6GXbH22Yo5DL1OPYzOF97sHf1PStSuAaZo1L7idw==
+
 react-native-chart-kit@^6.11.0:
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/react-native-chart-kit/-/react-native-chart-kit-6.11.0.tgz#513e0944cd8f946e1827facc17fe766ae487d91b"
