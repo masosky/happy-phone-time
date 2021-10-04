@@ -6,7 +6,7 @@ const {AwesomeModule} = NativeModules;
 export default function NativeCustomComponent() {
     const [name, setName] = useState("undefined")
     const onPresFunc = () => {
-        console.log(JSON.stringify(NativeModules))
+        console.log(JSON.stringify(AwesomeModule))
         setName(JSON.stringify(NativeModules))
     }
     return (
