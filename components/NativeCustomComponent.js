@@ -1,12 +1,12 @@
 import {Button, NativeModules, StyleSheet, Text, View} from "react-native";
 import React, {useState} from "react";
 
-const {AwesomeModule} = NativeModules;
+// const {AwesomeModule} = NativeModules;
 
 export default function NativeCustomComponent() {
     const [name, setName] = useState("undefined")
     const onPresFunc = () => {
-        console.log(JSON.stringify(AwesomeModule))
+        console.log(JSON.stringify(NativeModules))
         setName(JSON.stringify(NativeModules))
     }
     return (
