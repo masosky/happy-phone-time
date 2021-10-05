@@ -1,13 +1,14 @@
 import {Button, NativeModules, StyleSheet, Text, View} from "react-native";
 import React, {useState} from "react";
 
-// const {AwesomeModule} = NativeModules;
+const {AwesomeModule} = NativeModules;
 
 export default function NativeCustomComponent() {
     const [name, setName] = useState("undefined")
-    const onPresFunc = () => {
-        console.log(JSON.stringify(NativeModules))
-        setName(JSON.stringify(NativeModules))
+    const onPresFunc = async () => {
+        const res = await AwesomeModule.multiply(1, 2)
+        console.log(JSON.stringify(res))
+        setName(JSON.stringify(AwesomeModule))
     }
     return (
         <View style={styles.container}>
