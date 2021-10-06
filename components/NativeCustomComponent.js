@@ -7,7 +7,9 @@ export default function NativeCustomComponent() {
     const [name, setName] = useState("undefined")
     const onPresFunc = async () => {
         const res = await AwesomeModule.multiply(1, 2)
+        const metrics = await AwesomeModule.getMetrics()
         console.log(JSON.stringify(res))
+        console.log(JSON.stringify(metrics))
         setName(JSON.stringify(AwesomeModule))
     }
     return (
